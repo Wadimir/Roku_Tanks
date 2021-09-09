@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name = "ProgressBullet" extends = "Rectangle" >
+    <script type="text/brightscript" uri="./ProgressBullet.brs"/>
+
+    <interface>
+      <function name = "initProgressBullet" />
+      <function name = "playProgress"/>
+    </interface>
+
+    <children>
+      <Rectangle id = "bulletProgress"/>
+      <Timer id="timerProgressBullet"/>
+    </children>
+
+</component>

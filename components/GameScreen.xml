@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name = "GameScreen" extends = "Scene" >
+    <script type="text/brightscript" uri="./GameScreen.brs"/>
+
+    <interface>
+      <function name="initScreen"/>
+    </interface>
+
+    <children>
+      <Label id="startLabel"/>
+      <Label id="gameOverLabel"/>
+      <Label id="startDescription"/>
+      <Label id="tankLabel"/>
+      <Label id="enemyTankLabel"/>
+
+      <Rectangle id="limitLine"/>
+
+      <Timer id="gameTimer"/>
+      <Timer id="collisionTimer"/>
+    </children>
+
+</component>
