@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name = "Bullet" extends = "Rectangle" >
+    <script type="text/brightscript" uri="./Bullet.brs"/>
+
+    <interface>
+      <function name="initBullet" />
+      <function name="getBulletData" />
+      <function name="removeBullet" />
+    </interface>
+
+    <children>
+      <Rectangle id = "bulletRectangle" />
+
+      <Timer id="bulletTimer"/>
+    </children>
+
+</component>

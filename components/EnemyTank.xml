@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name = "EnemyTank" extends = "Rectangle" >
+    <script type="text/brightscript" uri="./EnemyTank.brs"/>
+
+    <interface>
+      <function name = "initScreen" />
+      <function name = "setKey" />
+      <function name = "letsFire" />
+      <function name = "getTankData" />
+      <function name = "getBulletData" />
+      <function name = "removeBullet" />
+      <function name = "removeTank" />
+    </interface>
+
+    <children>
+        <Poster id = "enemyTankUp"/>
+        <Poster id = "enemyTankRight"/>
+        <Poster id = "enemyTankDown" />
+        <Poster id = "enemyTankLeft"/>
+
+        <Timer id="enemyTankTimer"/>
+    </children>
+
+</component>
